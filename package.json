@@ -13,7 +13,6 @@
     "express-react-views": "^0.11.0",
     "react": "^18.2.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheWolfeSlayer/rest-rant.git"
