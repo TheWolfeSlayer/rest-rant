@@ -1,10 +1,10 @@
 {
   "name": "y",
   "version": "1.0.0",
-  "description": "",
+  "description": "REST-Rant is an app where users can review restaurants.",
   "main": "index.js",
   "scripts": {
-    "dev": "npx nodemon index.js"
+    "dev": "npx nodemon index.js -e js,jsx"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +12,15 @@
     "dotenv": "^16.0.3",
     "express-react-views": "^0.11.0",
     "react": "^18.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheWolfeSlayer/rest-rant.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/TheWolfeSlayer/rest-rant/issues"
+  },
+  "homepage": "https://github.com/TheWolfeSlayer/rest-rant#readme"
 }
