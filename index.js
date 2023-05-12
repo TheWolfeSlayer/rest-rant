@@ -1,10 +1,10 @@
 // Modules and Globals
+require ('dotenv').config()
 const express = require('express')
-require('dotenv').config()
 const methodOverride = require('method-override')
 const app = express()
 
-// Express Settings
+//Express Settings
 app.set('views', __dirname + '/views')
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
