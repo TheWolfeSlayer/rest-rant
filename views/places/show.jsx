@@ -8,7 +8,7 @@ function show (data) {
             <div className='row'>
                 <div className='col-sm-6'>
                     <h1>{ data.place.name }</h1>
-                    <img src={ data.place.pic } width={450}/>
+                    <img src={ data.place.pic } width={350}/>
                     <h3>
                         Located in {data.place.city}, {data.place.state}
                     </h3>
