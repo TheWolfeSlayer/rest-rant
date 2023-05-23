@@ -58,7 +58,7 @@ function Show (data) {
                     </div>
                     <div className="col-6">
                         <h2>Rating</h2>
-                        <p>Not Rated</p>
+                        <p>{rating}</p>
                         <h2>Description</h2>
                         <h3>
                             {data.place.showEstablished()}
